@@ -39,6 +39,9 @@ nav{
     color:var(--white-color);
     font-size: 1rem;
     padding: 0rem  14em;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
 }
 
 
@@ -76,6 +79,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding-top: 7.5rem;
+    align-items: center;
 }
 
 .developer_title{
@@ -129,5 +133,41 @@ nav{
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
+.section_about_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar_about_us{
+    width: auto;
+}
 
 
+.avatar_about_us img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1.25rem;
+
+}
+.section_title_about{
+    display: flex;
+    gap: 0.3438rem;
+    font-size: 2.375rem;
+}
+
+.tltle_me{
+    color: var(--color-wine);
+}
+
+.paragraph_about_me{
+    font-size: 1.125rem;
+    max-width: 25rem;
+}
+
+
+.read_more_about {
+    color: var(--color-wine);
+    font-weight: bold;
+
+}
