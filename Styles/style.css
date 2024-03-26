@@ -14,6 +14,7 @@ a{
 }
 
 body{
+    color: white;
     font-family: var(--Poppins);
 }
 
@@ -36,7 +37,7 @@ nav{
     height: 7.4rem;
     font-family: var(--oswald);
     color:var(--white-color);
-    font-size: 16px;
+    font-size: 1rem;
     padding: 0rem  14em;
 }
 
@@ -59,7 +60,7 @@ nav{
 
 .main{
     background-color:var(--black-color);
-    padding: 0px 17.5rem;
+    padding: 0px 21.2rem;
 }
 
 
@@ -85,12 +86,48 @@ nav{
 
 
 
-.buttons_hire_cv{
-    margin-top: 3.125rem;
-}
-
 .loper{
-    color: #7F0000;
-    margin-left: 80px;
-
+    color: var(--color-wine);
+    margin-left: 5rem;
 }
+
+.buttons_hire_cv{
+    display: flex;
+    margin-top: 3.125rem;
+    gap: 1.25rem;
+    position: relative;
+}
+
+.buttons_hire_cv button{
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.0625rem;
+    cursor: pointer;    
+    border: none;
+    border-radius: 1.25rem;
+    height: 2.375rem;
+}
+
+.buttons_hire_cv .hire_me{
+    background-color: #7F0000;
+    width: 6.25rem;
+}
+
+.buttons_hire_cv .download_cv{
+    background-color: rgb(41, 41, 41);
+    width: 12.5rem;
+    text-align: left;
+    padding-left: 2.3125rem; 
+}
+
+.bx-download-personal{
+    position: absolute;
+    margin-left: 0.4375rem;
+    font-size: 1.1875rem;
+}
+/* Fin de la primera sección*/
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+
+
