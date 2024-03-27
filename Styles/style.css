@@ -113,7 +113,7 @@ nav{
 }
 
 .buttons_hire_cv .hire_me{
-    background-color: #7F0000;
+    background-color: #ac0505;
     width: 6.25rem;
 }
 
@@ -171,3 +171,76 @@ nav{
     font-weight: bold;
 
 }
+
+/* Fin de la segunda sección*/
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+.secction_my_recent_works{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_recent_works_title, .tltle_works{
+    font-size: 3.125rem;
+}
+
+.tltle_works{
+    margin-left: 0.75rem;
+    color: var(--color-wine);
+}
+
+.works_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.works_container .works-box {
+    flex: 0 0 calc(33.333% - 2rem); /* Establece el ancho de la tarjeta */
+    background-color: rgba(57, 62, 70, 0.5);
+    padding: 1.5625rem 1.125rem 1.875rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-box img {
+    width: 350px;
+    height: 200px; /* Ajusta la altura automáticamente */
+    border-radius: 3.125rem;
+    object-fit: cover;
+}
+
+.works-box h3 {
+    margin-top: 20px;
+}
+
+.works-box p {
+    margin-top: 5px;
+    max-width: 90%;
+}
+
+.works-box .btn_my_works {
+    margin-top: auto; /* Asegura que el botón esté siempre en la parte inferior */
+}
+
+.works-box .btn_my_works button {
+    width: 8.25rem;
+    font-size: 0.9975rem;
+    font-weight: bold;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+
