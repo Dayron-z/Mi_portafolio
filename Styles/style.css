@@ -180,6 +180,7 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: auto;
 }
 
 .my_recent_works_title, .tltle_works{
@@ -244,3 +245,66 @@ nav{
 }
 
 
+.more_works button{
+    margin-top: 25px;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.0625rem;
+    cursor: pointer;    
+    border: none;
+    border-radius: 0.9375rem;
+    height: 2.375rem;
+    background-color: #ac0505;
+    width: 10.25rem;
+    border: 3px solid #ffffff;
+}
+
+.more_works button:hover{
+    font-size: 18px;
+}
+
+
+
+/* Fin seccion 3 */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+.tech-stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tech-stack_img{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.tech-stack_img img{
+    width: 50%;
+    height: 50%;
+}
+
+.tech_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    margin-top: 70px;
+    padding: 0px 200px;
+}
+
+.title_tech-stack{
+    display: flex;
+    font-size: 2.375rem;
+}
+
+.title_stack{
+    color: var(--color-wine);
+
+}   
