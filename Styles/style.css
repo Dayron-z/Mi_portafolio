@@ -136,7 +136,6 @@ nav{
 .abstract-image img{
     min-width: 100%; /* Establece que la imagen no debe ser más grande que su contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
-
 }
 
 /* Fin de la primera sección*/
@@ -428,7 +427,7 @@ nav{
     .works_container{
         display: flex;
         flex-direction: column;
-        align-self: start;
+        align-self: center;
     }
 
     .tech_container{
@@ -451,9 +450,6 @@ nav{
     display: none;
 }
 
-.nav{
-    position: unset;
-}
 
 .options_list{
     flex-direction: column;
@@ -467,8 +463,15 @@ nav{
 @media screen and (max-width: 800px) {
     .contact_container{
         flex-direction: column;
-
     }
 
+    .abstract-image-img{
+        width: 20rem;
+    }
+
+    .avatar_about_us img{
+        width: 18.75rem;
+        height: 20rem;
+    }
 
 }
