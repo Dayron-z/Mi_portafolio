@@ -157,8 +157,9 @@ nav{
     width: 30rem;
     height: 30rem;
     border-radius: 1.25rem;
-
 }
+
+
 .section_title_about{
     display: flex;
     gap: 0.3438rem;
@@ -238,8 +239,7 @@ nav{
 }
 
 .works-box .btn_my_works {
-    margin-top: auto;  
-}
+    margin-top: auto;  }
 
 .works-box .btn_my_works button {
     width: 8.25rem;
@@ -448,9 +448,18 @@ nav{
 
 
 .contact_correo{
-    display: none;
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 
+
+.tech-stack{
+    margin-top: 80px;
+}
+
+.nav{
+    position: static;
+}
 
 .options_list{
     flex-direction: column;
