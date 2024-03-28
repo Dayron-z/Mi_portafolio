@@ -443,15 +443,16 @@ nav{
     }
     
 .main{
-    padding: 0px 80px;
+    padding: 0px 50px;
 }
+
 
 .contact_correo{
     display: none;
 }
 
 .nav{
-    position: initial;
+    position: unset;
 }
 
 .options_list{
