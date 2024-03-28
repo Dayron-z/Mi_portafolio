@@ -209,7 +209,7 @@ nav{
 }
 
 .works_container .works-box {
-    flex: 0 0 calc(33.333% - 2em); /* Establece el ancho de la tarjeta */
+    flex: 0 0 calc(33.333% - 2em); 
     background-color: rgba(57, 62, 70, 0.5);
     padding: 1.5625rem 1.125rem 1.875rem;
     border-radius: 2rem;
@@ -238,7 +238,7 @@ nav{
 }
 
 .works-box .btn_my_works {
-    margin-top: auto; /* Asegura que el botón esté siempre en la parte inferior */
+    margin-top: auto;  
 }
 
 .works-box .btn_my_works button {
@@ -432,6 +432,7 @@ nav{
 
     .tech_container{
         padding: 0px 0px;
+        column-gap: 10px;
     }
     
 }
@@ -472,6 +473,10 @@ nav{
     .avatar_about_us img{
         width: 18.75rem;
         height: 20rem;
+    }
+
+    .abstract-image, .avatar_about_us{
+        margin-bottom: 70px;
     }
 
 }
