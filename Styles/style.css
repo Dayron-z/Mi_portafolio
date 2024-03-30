@@ -16,8 +16,8 @@ a{
 body{
     color: white;
     font-family: var(--Poppins);
-    /* max-width: 100vw;
-    overflow-x: hidden; */
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 
@@ -154,8 +154,8 @@ nav{
 
 
 .avatar_about_us img{
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 1.25rem;
 }
 
@@ -171,8 +171,8 @@ nav{
 }
 
 .paragraph_about_me{
-    font-size: 1.125rem;
-    max-width: 25rem;
+    font-size: 1.425rem;
+    max-width: 30rem;
 }
 
 
@@ -190,6 +190,7 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 120px;
 }
 
 .my_recent_works_title, .tltle_works{
@@ -437,6 +438,33 @@ nav{
     
 }
 
+
+/* Animación */
+/* Agrega una clase para controlar la animación */
+.animate-section {
+    animation: slideIn 0.5s ease forwards;
+}
+
+/* Define la animación */
+.animate-section {
+    animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 1100px) {
     .container-options-nav{
         display: none;
@@ -444,6 +472,14 @@ nav{
     
 .main{
     padding: 0px 50px;
+}
+
+
+
+.rights{
+    align-self: center;
+    position: absolute;
+    margin-right: 0px;
 }
 
 
@@ -473,6 +509,10 @@ nav{
 @media screen and (max-width: 800px) {
     .contact_container{
         flex-direction: column;
+    }
+
+    .nav{
+        justify-content: stretch;
     }
 
     .abstract-image-img{

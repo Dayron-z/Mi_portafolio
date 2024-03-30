@@ -17,17 +17,18 @@
 
         <div class="nav-sections">
             <ul class="container-options-nav">
-                <li class="options_nav"><a href="#">Home</a></li>
-                <li class="options_nav"><a href="#">About me</a></li>
-                <li class="options_nav"><a href="#">My works</a></li>
-                <li class="options_nav"><a href="#">Contact</a></li>
+                <li class="options_nav"><a href="#developer-section" class="scroll-to-section">Home</a></li>
+                <li class="options_nav"><a href="#about-me" class="scroll-to-section">About me</a></li>
+                <li class="options_nav"><a href="#my-works" class="scroll-to-section">My works</a></li>
+                <li class="options_nav"><a href="#tech-stack" class="scroll-to-section">Contact</a></li>
+                
             </ul>
         </div>
     </nav>
 
     
     <main class="main">
-        <section class="section_developer">
+        <section class="section_developer" id="developer-section">
             <div class="title_and_buttons">
                 <div class="developer_title">
                     <p>DEVE</p>
@@ -45,13 +46,13 @@
                 <img src="images/Cub.svg" alt="cube" class="abstract-image-img">
             </div>
         </section>
-        <section class="section_about_us">
+        <section class="section_about_us" id="about-me">
             <div class="title_and_paragraph_about">
                 <div class="section_title_about">
                     <h2 class="tltle_about">About<h2><h2 class="tltle_me">me</h2>
                 </div>
                 <p class="paragraph_about_me">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam iure sequi nam sed obcaecati tempore tempora suscipit cupiditate? Rem tempora iure itaque nemo quaerat accusantium error saepe illum? Minus adipisci cumque sunt atque culpa non recusandae numquam ipsa. Quis, minus tenetur facilis quo praesentium velit culpa modi aliquam ad?... <a href="#" class="read_more_about"> Read more.</a>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam iure sequi nam sed obcaecati tempore tempora suscipit cupiditate? Rem tempora iure itaque nemo quaerat accusantium error saepe illum? Minus adipisci cumque sunt atque culpa non recusandae numquam ipsa. Quis, minus tenetur facilis quo praesentium velit culpa modi aliquam ad?... <a href="about-me.html" class="read_more_about" target="_blank"> Read more.</a>
                 </p>
             </div>
             
@@ -61,7 +62,7 @@
 
 
         </section>
-        <section class="secction_my_recent_works">
+        <section class="secction_my_recent_works" id="my-works">
             <h2 class="my_recent_works_title">My recent<span class="tltle_works">works</span></h2>
             
             <div class="works_container">
@@ -70,7 +71,7 @@
                     <h3>FreshFLavors</h3>
                     <p>The project consists of developing a web platform dedicated to searching for new culinary recipes. This website was conceived with the purpose of providing users with an online experience that allows them to discover and explore a wide variety of dishes.</p>
 
-                    <a href="#" class="btn_my_works"><button>Read more</button></a>
+                    <a href="https://fresh-flavors-my331hzau-dayrons-projects-83cf0632.vercel.app/" target="_blank" class="btn_my_works"><button>Read more</button></a>
                     
                 </div>
                 <div class="works-box">
@@ -91,12 +92,12 @@
                 </div>
             </div>
             <div class="more_works">
-                <a href="#"><button>More works</button></a> 
+                <a href="more-works.html"><button>More works</button></a> 
             </div>
         </section>
-        <section class="tech-stack">
+        <section class="tech-stack" id="tech-stack">
             <div class="title_tech-stack">
-                <h2>Tech</h2><h2 class="title_stack">Stack</h2>
+                <h2>Tech </h2><h2 class="title_stack" > Stack</h2>
             </div>
             <div class="tech_container">
                 <div class="tech-stack_img">
@@ -138,12 +139,12 @@
             <ul class="options_list">
                 <a href="#"><li><i class='bx bx-home-alt icon_footer'></i>Home</li></a> 
                 <a href="#"><li><i class='bx bx-face icon_footer'></i>About me</li></a>
-                <a href="#"><li><i class='bx bxs-phone icon_footer'></i>Contacts</li></a>
+                <a href="mailto:zbastian.zapata@gmail.com?subject=Deseo contactarte"><li><i class='bx bxs-phone icon_footer'></i>Contacts</li></a>
             </ul>
         </div>
         <div class="social_media">
-            <a href="#"><div class="git_hub"><i class='bx bxl-github'></i></div></a>
-            <a href="#"><div class="linkedin"><i class='bx bxl-linkedin-square'></i></div></a>
+            <a href="https://github.com/Dayron-z" target="_blank"><div class="git_hub"><i class='bx bxl-github'></i></div></a>
+            <a href="https://www.linkedin.com/in/dayron-zapata-850a0424a/" target="_blank"><div class="linkedin"><i class='bx bxl-linkedin-square'></i></div></a>
         </div>
         <div class="rights">
             <h3 class="all_rights">© 2024 Copyright Dayron. All rights reserved.</h3>
@@ -152,6 +153,8 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/sweetAlert.js"></script>
 </body>
 </html>
