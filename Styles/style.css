@@ -547,3 +547,38 @@ nav{
     }
 
 }
+
+
+@media screen and (max-width: 400px) { /* iPhone SE width */
+    /* Agrega aquí tus ajustes de estilo específicos para dispositivos móviles */
+    body{
+        width: 100vw;
+    }
+
+    .contact_correo{
+        width: 300px;
+        flex-direction: column;
+        overflow: hidden;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .works_container{
+        width: 350px;
+    }
+
+    .works-box p{
+        display: none;
+    } 
+
+    .works-box img,
+    .avatar_about_us img{
+    width: 300px;
+    }
+
+
+    .tech-stack_img{
+        width:  70px;
+    }
+}
