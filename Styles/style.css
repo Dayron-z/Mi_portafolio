@@ -549,7 +549,7 @@ nav{
 }
 
 
-@media screen and (max-width: 400px) { /* iPhone SE width */
+@media screen and (max-width: 500px) { /* iPhone SE width */
     /* Agrega aquí tus ajustes de estilo específicos para dispositivos móviles */
     body{
         width: 100vw;
@@ -565,7 +565,7 @@ nav{
     }
 
     .works_container{
-        width: 21.875rem;
+        width: 18.875rem;
     }
 
     .works-box p{
@@ -574,7 +574,7 @@ nav{
 
     .works-box img,
     .avatar_about_us img{
-    width: 18.75rem;
+    width: 17.75rem;
     }
 
     .paragraph_about_me{
@@ -584,12 +584,16 @@ nav{
     .tech-stack_img{
         width:  4.375rem;
     }
+    .rights{
+        margin-top: 100px;
+    }
+
+    .social_media{
+        justify-content: center;
+        align-items: center;
+    }
 
     .all_rights{
         text-align: center;
-    }
-
-    .footer{
-        height: 470px;
     }
 }
