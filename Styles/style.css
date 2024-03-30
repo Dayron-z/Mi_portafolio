@@ -556,16 +556,16 @@ nav{
     }
 
     .contact_correo{
-        width: 300px;
+        width: 18.75rem;
         flex-direction: column;
         overflow: hidden;
-        height: 200px;
+        height: 12.5rem;
         align-items: center;
         justify-content: center;
     }
 
     .works_container{
-        width: 350px;
+        width: 21.875rem;
     }
 
     .works-box p{
@@ -574,11 +574,22 @@ nav{
 
     .works-box img,
     .avatar_about_us img{
-    width: 300px;
+    width: 18.75rem;
     }
 
+    .paragraph_about_me{
+        font-size: 1.125rem;
+    }
 
     .tech-stack_img{
-        width:  70px;
+        width:  4.375rem;
+    }
+
+    .all_rights{
+        text-align: center;
+    }
+
+    .footer{
+        height: 470px;
     }
 }
