@@ -124,8 +124,8 @@
                 <img src="images/contact.svg" alt="">
                 <div class="contact_correo">
                     <img src="images/Gmail.svg" alt="">
-                    <h2>zbastian.zapata@gmail.com</h2>
-                    <button class="copy">Copy</button>
+                    <h2 id="correo">zbastian.zapata@gmail.com</h2>
+                    <button class="copy"  onclick="copyToClipboard()">Copy</button>
                 </div>
               </div>
 
@@ -137,9 +137,9 @@
     <footer class="footer">
         <div class="options_footer">
             <ul class="options_list">
-                <a href="#"><li><i class='bx bx-home-alt icon_footer'></i>Home</li></a> 
-                <a href="#"><li><i class='bx bx-face icon_footer'></i>About me</li></a>
-                <a href="mailto:zbastian.zapata@gmail.com?subject=Deseo contactarte"><li><i class='bx bxs-phone icon_footer'></i>Contacts</li></a>
+                <li><a href="#developer-section" class="scroll-to-section"><i class='bx bx-home-alt icon_footer'></i>Home</a></li>
+                <li><a href="about-me.html" target="_blank"><i class='bx bx-face icon_footer'></i>About me</a></li>
+                <li><a href="mailto:zbastian.zapata@gmail.com?subject=Deseo%20contactarte"><i class='bx bxs-phone icon_footer'></i>Contacts</a></li>                
             </ul>
         </div>
         <div class="social_media">
@@ -156,5 +156,6 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/animation.js"></script>
     <script src="js/sweetAlert.js"></script>
+    <script src="js/generalFunctions.js"></script>
 </body>
 </html>

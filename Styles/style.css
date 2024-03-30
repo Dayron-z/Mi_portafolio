@@ -466,7 +466,7 @@ nav{
 
 
 @media screen and (max-width: 1100px) {
-    .container-options-nav{
+.container-options-nav{
         display: none;
     }
     
@@ -481,6 +481,11 @@ nav{
     position: absolute;
     margin-right: 0px;
 }
+
+.abstract-image, .avatar_about_us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
 
 
 .contact_correo{
@@ -502,6 +507,18 @@ nav{
     gap: 10px;
     text-align: center;
 }
+
+
+.secction_my_recent_works{
+    padding-top: 0px;
+}
+
+
+.section_developer{
+    padding-top: 1.5rem;
+}
+
+
 }
 
 
@@ -511,21 +528,24 @@ nav{
         flex-direction: column;
     }
 
-    .nav{
-        justify-content: stretch;
-    }
 
-    .abstract-image-img{
-        width: 20rem;
-    }
-
-    .avatar_about_us img{
+    /* .avatar_about_us img{
         width: 18.75rem;
         height: 20rem;
     }
 
-    .abstract-image, .avatar_about_us{
-        margin-bottom: 70px;
+     */
+    .section_developer{
+        min-height: 10px;
+        justify-content: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .abstract-image{
+        display: none;
     }
 
 }
