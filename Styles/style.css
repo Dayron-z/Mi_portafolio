@@ -546,6 +546,19 @@ nav{
         display: none;
     }
 
+
+    .social_media{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all_rights{
+        text-align: center;
+    }
+
+    .footer{
+        height: 450px;
+    }
 }
 
 
@@ -588,12 +601,5 @@ nav{
         margin-top: 100px;
     }
 
-    .social_media{
-        justify-content: center;
-        align-items: center;
-    }
 
-    .all_rights{
-        text-align: center;
-    }
 }
