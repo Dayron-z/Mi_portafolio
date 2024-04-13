@@ -23,6 +23,8 @@ body{
 a{
     text-decoration: none;
 }
+
+
 header{
     width: 1140px;
     max-width: 80%;
@@ -34,7 +36,10 @@ header{
     z-index: 100;
 }
 header a{
-    color: #eee;
+    color: #000000;
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: bold;
     margin-right: 40px;
 }
 /* carousel */
@@ -81,7 +86,10 @@ header a{
 .carousel .list .item .topic{
     color: var(--color-wine);
 }
-.carousel .list .item .buttons{
+
+
+.carousel .list .item a .buttons{
+    cursor: pointer;
     display: grid;
     grid-template-columns: repeat(2, 130px);
     grid-template-rows: 40px;
@@ -90,7 +98,7 @@ header a{
 }
 .carousel .list .item .buttons button{
     border: none;
-    background-color: #eee;
+    background-color: #ff0000;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
