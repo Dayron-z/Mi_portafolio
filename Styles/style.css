@@ -405,16 +405,16 @@ nav {
   .main {
     padding: 0px 9.2rem;
   }
-
-  .avatar_about_us {
-    margin-left: 170px;
-  }
 }
 
 @media screen and (max-width: 1400px) {
-  .section_developer,
+  /* .section_developer,
   .section_about_us {
     flex-direction: column;
+  } */
+
+  .works-box {
+    max-width: 500px;
   }
 
   .my_recent_works_title,
@@ -468,6 +468,11 @@ nav {
 }
 
 @media screen and (max-width: 1100px) {
+  .section_developer,
+  .section_about_us {
+    flex-direction: column;
+  }
+
   .container-options-nav {
     display: none;
   }
