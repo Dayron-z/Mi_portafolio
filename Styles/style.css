@@ -401,6 +401,16 @@ nav {
 }
 
 /* Media queries para ajustar el diseño en tamaños de pantalla más pequeños */
+@media screen and (max-width: 1600px) {
+  .main {
+    padding: 0px 9.2rem;
+  }
+
+  .avatar_about_us {
+    margin-left: 170px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .section_developer,
   .section_about_us {
@@ -460,6 +470,10 @@ nav {
 @media screen and (max-width: 1100px) {
   .container-options-nav {
     display: none;
+  }
+
+  .works-box {
+    max-width: 500px;
   }
 
   .main {
@@ -543,6 +557,10 @@ nav {
 
   .footer {
     height: 450px;
+  }
+
+  .works-box {
+    max-width: auto;
   }
 }
 
