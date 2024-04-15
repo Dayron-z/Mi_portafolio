@@ -473,6 +473,9 @@ nav {
     flex-direction: column;
   }
 
+  .paragraph_about_me {
+    font-size: 1.125rem;
+  }
   .container-options-nav {
     display: none;
   }
