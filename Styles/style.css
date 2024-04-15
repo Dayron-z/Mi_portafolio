@@ -407,6 +407,17 @@ nav {
     flex-direction: column;
   }
 
+  .my_recent_works_title,
+  .paragraph_about_me {
+    text-align: center;
+  }
+
+  .section_title_about,
+  .title_tech-stack {
+    display: flex;
+    justify-content: center;
+  }
+
   .abstract-image {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -547,6 +558,10 @@ nav {
     height: 12.5rem;
     align-items: center;
     justify-content: center;
+  }
+
+  .main section {
+    min-height: 60vh;
   }
 
   .works_container {
