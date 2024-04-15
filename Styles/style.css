@@ -43,6 +43,27 @@ nav {
   z-index: 10;
 }
 
+.options_nav {
+  position: relative;
+  padding-bottom: 1.5px;
+}
+
+.options_nav::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--color-wine);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.options_nav:hover::after {
+  opacity: 1;
+}
+
 .container-options-nav {
   display: flex;
   gap: 1.9375em;
